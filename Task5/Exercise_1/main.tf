@@ -8,7 +8,7 @@ resource "aws_instance" "Udacity-T2" {
     instance_type = "t2.micro"
     count = 4
     tags = {
-        "name" = "Udacity Terraform"
+        "Name" = "Udacity T2"
     }
 }
 
@@ -17,6 +17,6 @@ resource "aws_instance" "Udacity-M4" {
     instance_type = "m4.large"
     count = 2
     tags = {
-        "name" = "Udacity Terraform"
+        "Name" = "Udacity M4"
     }
 }   
